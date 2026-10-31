@@ -1,0 +1,72 @@
+/*
+ * 디자인 토큰 — 포트폴리오 전용
+ * 원본: getdesign.md Apple DESIGN.md (VoltAgent/awesome-design-md, MIT)
+ *       design-md/apple/DESIGN.md @ e06a966 · sha256 83fbc614…3002b2 · 2026-10-31 반영
+ * 변경: 강조색 파랑 → 초록(primary 3종), 글꼴 SF Pro → Pretendard
+ * 규칙: 프로젝트 루트 DESIGN.md 「Project Overrides」
+ */
+
+:root {
+  /* 강조색 — 이 3개만 사용 */
+  --primary: #047750;
+  --primary-focus: #059E6A;
+  --primary-on-dark: #36D397;
+  --on-primary: #ffffff;
+
+  /* 텍스트 — 뉴트럴 */
+  --ink: #1d1d1f;
+  --ink-muted-80: #333333;
+  --ink-muted-48: #7a7a7a;
+
+  /* 배경 · 면 */
+  --canvas: #ffffff;
+  --canvas-parchment: #f5f5f7;
+  --surface-pearl: #fafafc;
+
+  /* 선 */
+  --divider-soft: #f0f0f0;
+  --hairline: #e0e0e0;
+
+  /* 어두운 면 — 기본 미사용 */
+  --surface-tile-1: #272729;
+  --surface-black: #000000;
+  --body-on-dark: #ffffff;
+  --body-muted: #cccccc;
+
+  /* 글꼴 */
+  --font: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 'Apple SD Gothic Neo', sans-serif;
+
+  /* 글자 크기 · 굵기 · 줄 간격 · 자간 (DESIGN.md typography) */
+  --hero-display-size: 56px;  --hero-display-weight: 600; --hero-display-lh: 1.07; --hero-display-ls: -0.28px;
+  --display-lg-size: 40px;    --display-lg-weight: 600;   --display-lg-lh: 1.1;    --display-lg-ls: 0;
+  --display-md-size: 34px;    --display-md-weight: 600;   --display-md-lh: 1.47;   --display-md-ls: -0.374px;
+  --lead-size: 28px;          --lead-weight: 400;         --lead-lh: 1.14;         --lead-ls: 0.196px;
+  --lead-airy-size: 24px;     --lead-airy-weight: 300;    --lead-airy-lh: 1.5;     --lead-airy-ls: 0;
+  --tagline-size: 21px;       --tagline-weight: 600;      --tagline-lh: 1.19;      --tagline-ls: 0.231px;
+  --body-size: 17px;          --body-weight: 400;         --body-lh: 1.47;         --body-ls: -0.374px;
+  --body-strong-weight: 600;  --body-strong-lh: 1.24;
+  --caption-size: 14px;       --caption-weight: 400;      --caption-lh: 1.43;      --caption-ls: -0.224px;
+  --caption-strong-weight: 600; --caption-strong-lh: 1.29;
+  --fine-print-size: 12px;    --fine-print-weight: 400;   --fine-print-lh: 1;      --fine-print-ls: -0.12px;
+
+  /* 모서리 */
+  --rounded-none: 0px;
+  --rounded-xs: 5px;
+  --rounded-sm: 8px;
+  --rounded-md: 11px;
+  --rounded-lg: 18px;
+  --rounded-pill: 9999px;
+
+  /* 간격 */
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 17px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-xxl: 48px;
+  --space-section: 80px;
+
+  /* 그림자 — 이미지 전용, UI 에는 쓰지 않음 */
+  --shadow-image: rgba(0, 0, 0, 0.22) 3px 5px 30px 0;
+}
